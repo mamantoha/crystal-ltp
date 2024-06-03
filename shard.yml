@@ -1,0 +1,14 @@
+name: ltp
+version: 0.1.0
+
+authors:
+  - Anton Maminov <anton.maminov@gmail.com>
+
+description: |
+   The library to display characters in a 3x3 format on the terminal using large type pieces characters.
+
+targets:
+  ltp:
+    main: src/ltp_cli.cr
+
+license: MIT
