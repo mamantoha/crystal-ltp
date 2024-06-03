@@ -1,5 +1,7 @@
 # ltp - Large Type Pieces
 
+[![Crystal CI](https://github.com/mamantoha/crystal-ltp/actions/workflows/crystal.yml/badge.svg)](https://github.com/mamantoha/crystal-ltp/actions/workflows/crystal.yml)
+
 `ltp` is a Crystal library to display characters in a 3x3 format in the terminal using large type pieces characters only.
 This library provides a visually distinct way to present large, block-style characters, making terminal outputs more visually engaging.
 
