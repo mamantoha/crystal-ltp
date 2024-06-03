@@ -860,12 +860,18 @@ module LTP
     ],
   }
 
+  INVALID_CHAR = [
+    "▚▚▚",
+    "▚▚▚",
+    "▚▚▚",
+  ]
+
   ALPHABET = ALPHABET_ASCII.merge(ALPHABET_UK)
 
   def self.print(input)
     input_chars = input.split("")
 
-    lines = input_chars.map { |char| ALPHABET[char] }
+    lines = input_chars.map { |char| ALPHABET.fetch(char, INVALID_CHAR) }
 
     num_lines = lines.first.size
 
